@@ -1,0 +1,21 @@
+:root{
+    primary-color:rgb(11.78.179);
+}
+#import url(https://fonts.google.com/download?family=Montserrat)
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   front-family:'Montserrat', sans-serif;
+   display: grid;
+   place-items: center;
+   min-height: 100vh;
+   background: linear-gradient(to right,#74ebd5,#acb6e5);
+}
+/*form*/
+.form{
+    width: clamp(320);
+}

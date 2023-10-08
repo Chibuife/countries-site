@@ -1,0 +1,30 @@
+html {
+    font-size: 23px;
+}
+body{
+    background-color: rgb(7, 7, 7);
+    color: whitesmoke;
+}
+
+a {
+    color: green;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover, a:active{
+    color: yellow
+}
+
+table, tr, th, td, caption{
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+textarea ~ button{
+    color: red;
+}

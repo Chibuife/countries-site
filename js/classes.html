@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>MY CONSTRUCTOR</h1>
+    
+    <script>
+        // class Rectangle {
+        //     constructor(_width, _height, _color){
+        //         console.log("class is created");
+        //         this.width = _width;
+        //         this.height = _height;
+        //         this.color = _color;
+        //     }
+
+        //     getArea () {
+        //        return this.width * this.height; 
+        //     }
+        //     retangleDescription () {
+        //         return console.log(`i a rectangle of ${this.width} x ${this.height} and I am ${this.color}`)
+        //     }
+        // }
+
+        // let rectangle1 = new Rectangle(2, 6, "red");
+        // let rectangle2 = new Rectangle(3, 6, "red");
+
+        // console.log(rectangle1.getArea());
+        // console.log(rectangle1.retangleDescription());
+
+        // class Square{
+        //     constructor (_width){
+        //         this.height = _width;
+        //         this.width = _width;
+        //         this.numberOfArea = 0;
+        //     }
+
+        //     get area () {
+        //         this.numberOfArea++;
+        //         return this.height * this.width;
+        //     }
+        //     set area (area) {
+        //         this.width = Math.sqrt(area);
+        //         this.height = this.width;
+        //     }
+        // }
+
+        // let square1 = new Square(4);
+        // square1.area = 25;
+        // console.log(square1.width);
+        // console.log(square1.width);
+        // console.log(square1.area);
+        // console.log(square1.area);
+        // console.log(square1.area);
+        // console.log(square1.numberOfArea);
+
+        // console.log(square.width);
+        // console.log(square.height);
+        
+        // class Square {
+        //     constructor (_width){
+        //         this.width = _width;
+        //         this.height = _width;
+        //     }
+        //     static equals(a, b){
+        //         return a.width * a.height === a.height * a.width;
+        //     }
+
+        //     static isValidDimensions(width, height){
+        //         return width === height;
+        //     }
+        // }
+
+        // let square1 = new Square(8);
+        // let square2 = new Square(8);
+
+        // console.log(Square.equals(square1, square2));
+        // console.log(Square.isValidDimensions(6, 6));
+
+        class Person {
+            constructor(_name, _age){
+                this.name = _name;
+                this.age = _age;
+            }
+            desicribe (){
+            console.log(`i am ${this._name} and am ${this._age} years old.`)
+            }
+        }
+        class Programer extends Person {
+            constructor(_name, _age, _yearsOfExperience){
+                super(_name, _age);
+                this.yearsOfExperience =  _yearsOfExperience;
+            }
+            code (){
+                console.log(`${this.name} is coding`)
+            }
+        }
+        let person1 = new Person("Jeff", 35)
+        let programer1 = new Programer("Dom", 45, 12)
+        console.log(person1)
+        console.log(programer1)
+        function developerSoftware (programer){
+            // Developer Software
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+fetch('http://regres.in/api/users')
+.then(res => console.log(res))
+// .then(data => console.log(data))
+// .catch(error => console.log('Error'))
+// console.log('hello world')
